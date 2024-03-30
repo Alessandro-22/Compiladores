@@ -1,0 +1,18 @@
+chaycama main():
+    invoca("hola mundo")
+//factorial Iterativo
+chaycama factorial(n) 
+    int resultado = 1
+    four i in loop 1 a n {
+        resultado = resultado * i
+    }
+    devolver resultado
+//factorial recursivo
+chaycama factorial(n):
+    ifi n = 0 {
+        devolver 1
+    }
+    else{
+        devolver n * factorial(n-1)
+    }
+
